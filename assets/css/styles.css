@@ -564,7 +564,7 @@ img {
     text-align: justify;
 }
 
-.certificate__content {
+/* .certificate__content {
     text-align: justify;
     overflow-wrap: break-word;
     word-break: break-word;
@@ -576,7 +576,7 @@ img {
 
     hyphens: auto;
     text-align: justify;
-}
+} */
 
 .profile__description {
     text-align: justify;
