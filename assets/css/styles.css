@@ -128,21 +128,8 @@ body.scale-cv {
     height: 1.5rem;
 }
 
-/* Interests */
-.scale-cv .interests__container {
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: start;
-    justify-content: start;
-    margin-top: var(--mb-2);
-    gap: 1rem;
-}
-
 .scale-cv .interests__content {
     gap: 0.5rem;
-}
-
-.scale-cv #interests{
-    padding: 0 !important;
 }
 
 .scale-cv #portfolio {
