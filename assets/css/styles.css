@@ -128,9 +128,19 @@ body.scale-cv {
     height: 1.5rem;
 }
 
-.scale-cv .interests__container {
+.interests__container {
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    justify-items: start;
+    margin-top: var(--mb-2);
+}
+
+.scale-cv .interests__content {
+    gap: 0.2rem;
+}
+
+.scale-cv .interests__container {
+    justify-items: start;
+    gap: .5rem;
 }
 
 .scale-cv #portfolio {
@@ -164,7 +174,7 @@ body.scale-cv {
 }
 
 .scale-cv #experience{
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
 }
 
 .scale-cv #experience,
@@ -855,12 +865,10 @@ img {
     margin-bottom: .25rem;
 }
 
-
 .interests__icon:hover,
 .interests__name:hover {
     color: var(--hover-color);
 }
-
 
 /*============ Last modified ============*/
 
