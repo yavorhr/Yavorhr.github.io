@@ -570,10 +570,6 @@ img {
     overflow-wrap: break-word;
     word-break: break-word;
     page-break-inside: auto;
-    hyphens: auto;
-    /* line-height: 1.6;
-    margin: 0;
-    padding: 0.5rem; */
 
     page-break-before: auto;
     page-break-after: auto;
@@ -642,10 +638,11 @@ img {
 
 /*============ SKILLS AND LANGUAGES ============*/
 
-#skills {
+ /* Force the section to start on a new page */
+/* #skills {
     page-break-before: always;
-    /* Force the section to start on a new page */
-}
+   
+} */
 
 .languages__content {
     grid-template-columns: repeat(2, 1fr)
