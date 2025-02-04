@@ -638,10 +638,9 @@ img {
 /*============ SKILLS AND LANGUAGES ============*/
 
  /* Force the section to start on a new page */
-/* #skills {
+ #skills {
     page-break-before: always;
-   
-} */
+} 
 
 .languages__content {
     grid-template-columns: repeat(2, 1fr)
