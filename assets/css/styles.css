@@ -170,12 +170,11 @@ body.scale-cv {
     padding-left: 0px !important;
 }
 
-.scale-cv #experience,
-.scale-cv #certificates,
+/* .scale-cv #experience,
 .scale-cv #languages,
 .scale-cv #interests {
     padding-right: 10rem;
-}
+} */
 
 .scale-cv .skills_wrapper {
     display: grid;
