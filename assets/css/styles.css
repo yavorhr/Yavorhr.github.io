@@ -140,7 +140,10 @@ body.scale-cv {
     gap: 0.5rem;
 }
 
-
+.scale-cv #interests{
+    padding: 0;
+    margin: 0;
+}
 
 .scale-cv #portfolio {
     display: none !important;
