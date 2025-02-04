@@ -122,7 +122,6 @@ body.scale-cv {
     display: none;
 }
 
-
 .scale-cv .skills__icon-img {
     width: 1.5rem;
     height: 1.5rem;
@@ -130,6 +129,10 @@ body.scale-cv {
 
 .scale-cv .interests__content {
     gap: 0.5rem;
+}
+
+.scale-cv #interests{
+    padding: 0px !important;
 }
 
 .scale-cv #portfolio {
@@ -164,6 +167,7 @@ body.scale-cv {
 
 .scale-cv #experience{
     margin-bottom: 1rem;
+    padding-left: 0px !important;
 }
 
 .scale-cv #experience,
