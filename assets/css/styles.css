@@ -565,6 +565,24 @@ img {
     text-align: justify;
 }
 
+.certificate__content {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    page-break-inside: auto;
+    hyphens: auto;
+    /* line-height: 1.6;
+    margin: 0;
+    padding: 0.5rem; */
+
+    page-break-before: auto;
+    page-break-after: auto;
+    page-break-inside: avoid;
+
+    hyphens: auto;
+    text-align: justify;
+}
+
 .profile__description {
     text-align: justify;
     padding: 0.5rem;
