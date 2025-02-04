@@ -181,7 +181,7 @@ body.scale-cv {
     grid-template-columns: 1.3fr 1fr 1fr;
     justify-content: center;
     font-size: var(--smaller-font-size);
-    width: 90%;
+    width: 100%;
 }
 
 .scale-cv .skills_wrapper svg{
@@ -563,20 +563,6 @@ img {
     hyphens: auto;
     text-align: justify;
 }
-
-/* .certificate__content {
-    text-align: justify;
-    overflow-wrap: break-word;
-    word-break: break-word;
-    page-break-inside: auto;
-
-    page-break-before: auto;
-    page-break-after: auto;
-    page-break-inside: avoid;
-
-    hyphens: auto;
-    text-align: justify;
-} */
 
 .profile__description {
     text-align: justify;
