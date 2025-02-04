@@ -131,7 +131,7 @@ body.scale-cv {
     gap: 0.5rem;
 }
 
-.scale-cv #interests{
+.scale-cv #interests {
     padding: 0px !important;
 }
 
@@ -148,7 +148,6 @@ body.scale-cv {
 }
 
 .scale-cv .section-title {
-    margin-bottom: .5rem;
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -165,7 +164,18 @@ body.scale-cv {
     align-items: flex-start;
 }
 
-.scale-cv #experience{
+.scale-cv #experience .section-title,
+.scale-cv #certificates .section-title,
+.scale-cv #interests .section-title {
+    margin-bottom: var(--mb-3) !important;
+    margin-top: var(--mb-1) !important;
+}
+
+.scale-cv #languages .section-title {
+    margin-bottom: var(--mb-3) !important;
+}
+
+.scale-cv #experience {
     margin-bottom: 1rem;
     padding-left: 0px !important;
 }
@@ -184,7 +194,7 @@ body.scale-cv {
     width: 100%;
 }
 
-.scale-cv .skills_wrapper svg{
+.scale-cv .skills_wrapper svg {
     font-size: var(--smaller-font-size);
 }
 
@@ -623,10 +633,10 @@ img {
 
 /*============ SKILLS AND LANGUAGES ============*/
 
- /* Force the section to start on a new page */
- #skills {
+/* Force the section to start on a new page */
+#skills {
     page-break-before: always;
-} 
+}
 
 .languages__content {
     grid-template-columns: repeat(2, 1fr)
