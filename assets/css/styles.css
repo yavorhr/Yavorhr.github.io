@@ -146,7 +146,7 @@ body.scale-cv {
 }
 
 .scale-cv .section-title {
-    margin-bottom: 10rem;
+    margin-bottom: .5rem;
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -161,6 +161,10 @@ body.scale-cv {
     text-align: left;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.scale-cv #experience{
+    margin-bottom: .5rem;
 }
 
 .scale-cv #experience,
