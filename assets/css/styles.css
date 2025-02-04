@@ -142,8 +142,7 @@ body.scale-cv {
 }
 
 .scale-cv #interests{
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
 }
 
 .scale-cv #portfolio {
@@ -159,7 +158,7 @@ body.scale-cv {
 }
 
 .scale-cv .section-title {
-    margin-bottom: .5rem;
+    margin-bottom: .7rem;
     justify-content: flex-start;
     align-items: flex-start;
 }
