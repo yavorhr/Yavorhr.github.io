@@ -178,10 +178,10 @@ body.scale-cv {
 
 .scale-cv .skills_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.3fr 1fr 1fr;
     justify-content: center;
     font-size: var(--smaller-font-size);
-    width: 80%;
+    width: 90%;
 }
 
 .scale-cv .skills_wrapper svg{
