@@ -146,7 +146,9 @@ body.scale-cv {
 }
 
 .scale-cv .section-title {
-    margin-bottom: .5rem
+    margin-bottom: 10rem;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .scale-cv .resume__left,
