@@ -128,6 +128,7 @@ body.scale-cv {
     height: 1.5rem;
 }
 
+/* Interests */
 .scale-cv .interests__container {
     grid-template-columns: repeat(3, 1fr);
     justify-items: start;
