@@ -157,11 +157,15 @@ body.scale-cv {
 .scale-cv #certificates,
 .scale-cv #languages,
 .scale-cv #interests {
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     box-sizing: border-box;
     text-align: left;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.scale-cv .resume__left{
+      padding: 0 1rem; 
 }
 
 .scale-cv #experience .section-title,
