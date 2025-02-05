@@ -131,10 +131,6 @@ body.scale-cv {
     gap: 0.5rem;
 }
 
-.scale-cv #interests {
-    padding: 0px !important;
-}
-
 .scale-cv #portfolio {
     display: none !important;
 }
@@ -164,6 +160,10 @@ body.scale-cv {
     align-items: flex-start;
 }
 
+.scale-cv #interests {
+    margin-bottom: var(--mb-3);
+}
+
 .scale-cv .resume__left {
     padding: 0 1rem;
 }
@@ -183,11 +183,6 @@ body.scale-cv {
     padding-left: 0px !important;
 }
 
-/* .scale-cv #experience,
-.scale-cv #languages,
-.scale-cv #interests {
-    padding-right: 10rem;
-} */
 
 .scale-cv .skills_wrapper {
     display: grid;
