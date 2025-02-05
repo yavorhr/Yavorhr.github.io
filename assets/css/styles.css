@@ -103,7 +103,6 @@ body.scale-cv {
     color: var(--text-color);
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
-
 }
 
 .generate-pdf:hover {
@@ -204,10 +203,6 @@ body.scale-cv {
 .scale-cv #skills {
     padding-right: 0px !important;
 }
-
-/* .scale-cv .resume__right {
-    padding-right: 10rem;
-} */
 
 .scale-cv #area-cv {
     grid-template-columns: 300px 1fr;
