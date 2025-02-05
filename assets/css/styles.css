@@ -144,6 +144,7 @@ body.scale-cv {
 }
 
 .scale-cv .section {
+    padding: 0;
     padding-top: 1.5rem;
 }
 
