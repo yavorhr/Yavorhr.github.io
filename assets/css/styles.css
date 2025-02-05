@@ -112,8 +112,8 @@ body.scale-cv {
 
 /*============ Classes modified to reduce size and print on A4 sheet ============*/
 
-.scale-cv .last-modified_wrapper {
-    display: none;
+.scale-cv #area-cv {
+    grid-template-columns: 300px 1fr;
 }
 
 .scale-cv .change-theme,
@@ -182,6 +182,11 @@ body.scale-cv {
     padding-left: 0px !important;
 }
 
+/* Skills */
+
+.scale-cv #skills {
+    padding-right: 0px !important;
+}
 
 .scale-cv .skills_wrapper {
     display: grid;
@@ -200,12 +205,8 @@ body.scale-cv {
     break-inside: avoid;
 }
 
-.scale-cv #skills {
-    padding-right: 0px !important;
-}
-
-.scale-cv #area-cv {
-    grid-template-columns: 300px 1fr;
+.scale-cv .skills__name {
+    margin-bottom: var(--mb-1);
 }
 
 .scale-cv .certificate__container {
@@ -252,13 +253,14 @@ body.scale-cv {
     gap: .25rem;
 }
 
+/* Pseudo elements */
 .scale-cv .education__rounder,
 .scale-cv .experience__rounder {
     width: 11px;
     height: 11px;
     margin-top: .22rem
 }
-
+ 
 .scale-cv .education__line {
     width: 1px;
     height: 140%;
@@ -276,8 +278,9 @@ body.scale-cv {
     gap: .25rem;
 }
 
-.scale-cv .skills__name {
-    margin-bottom: var(--mb-1);
+/* Last updated */
+.scale-cv .last-modified_wrapper {
+    display: none;
 }
 
 body {
@@ -364,7 +367,6 @@ img {
 }
 
 /*============ Navigation ============*/
-
 .nav {
     display: flex;
     justify-content: space-between;
