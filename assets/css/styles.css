@@ -144,7 +144,7 @@ body.scale-cv {
 }
 
 .scale-cv .section {
-    padding: 1.5rem 0 .80rem
+    padding-top: 1.5rem;
 }
 
 .scale-cv .section-title {
@@ -157,15 +157,14 @@ body.scale-cv {
 .scale-cv #certificates,
 .scale-cv #languages,
 .scale-cv #interests {
-    /* padding: 0 1rem; */
     box-sizing: border-box;
     text-align: left;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
-.scale-cv .resume__left{
-      padding: 0 1rem; 
+.scale-cv .resume__left {
+    padding: 0 1rem;
 }
 
 .scale-cv #experience .section-title,
@@ -180,7 +179,6 @@ body.scale-cv {
 }
 
 .scale-cv #experience {
-    margin-bottom: 1rem;
     padding-left: 0px !important;
 }
 
@@ -290,7 +288,6 @@ body.scale-cv {
 .scale-cv .skills__name {
     margin-bottom: var(--mb-1);
 }
-
 
 body {
     margin: 0 0 var(--header-height) 0;
