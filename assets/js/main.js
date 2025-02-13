@@ -166,7 +166,7 @@ resumeButton.addEventListener('click', () => {
 
 });
 
-
+// Change profile picture on hover
 document.addEventListener("DOMContentLoaded", function () {
     const img = document.querySelector(".home__img");
 

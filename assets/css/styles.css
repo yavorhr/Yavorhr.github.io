@@ -213,10 +213,10 @@ body.scale-cv {
     list-style: none;
 }
 
-.scale-cv .home__img {
+/* .scale-cv .home__img {
     width: 90px;
     height: 90px;
-}
+} */
 
 .scale-cv .home__container {
     gap: 1.5rem;
