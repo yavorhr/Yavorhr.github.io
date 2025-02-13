@@ -473,7 +473,7 @@ img {
 .home__img:hover {
     content: url('assets/img/pic_2.jpg');
     box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
-    filter: grayscale(0%);
+    filter: grayscale(0%) !important;
     transform: scale(1.05);
 }
 
