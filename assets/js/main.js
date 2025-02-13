@@ -165,3 +165,18 @@ resumeButton.addEventListener('click', () => {
     setTimeout(removeScale, 5000);
 
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const img = document.querySelector(".home__img");
+
+    img.addEventListener("mouseover", function () {
+        img.src = "assets/img/pic_2.jpg";
+        img.style.filter = "grayscale(0%)"; // Remove grayscale
+    });
+
+    img.addEventListener("mouseout", function () {
+        img.src = "assets/img/pic_1.jpg";
+        img.style.filter = "grayscale(100%)"; // Reapply grayscale
+    });
+});
