@@ -467,6 +467,7 @@ img {
 
     user-select: none;
     filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
 }
 
 .home__img:hover {
