@@ -172,11 +172,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     img.addEventListener("mouseover", function () {
         img.src = "assets/img/pic_2.jpg";
-        img.style.filter = "grayscale(0%)"; // Remove grayscale
+        img.style.filter = "grayscale(0%)"; 
     });
 
     img.addEventListener("mouseout", function () {
         img.src = "assets/img/pic_1.jpg";
-        img.style.filter = "grayscale(100%)"; // Reapply grayscale
+        img.style.filter = "grayscale(100%)"; 
     });
 });

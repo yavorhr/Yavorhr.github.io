@@ -470,12 +470,10 @@ img {
     transition: all 0.3s ease-in-out;
 }
 
-/* .home__img:hover {
-    content: url('assets/img/pic_2.jpg');
+.home__img:hover {
     box-shadow: 3px 3px 20px rgba(0, 0, 0, .5);
-    filter: grayscale(0%) !;
     transform: scale(1.05);
-} */
+}
 
 .home__title {
     font-size: var(--h1-font-size);
