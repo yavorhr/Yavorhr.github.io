@@ -87,6 +87,7 @@ body.scale-cv {
 
 .scale-cv .home__img {
     filter: grayscale(0%);
+    border-radius: 50%;
 }
 
 .scale-cv .l-main {
