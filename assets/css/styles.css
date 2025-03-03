@@ -916,6 +916,10 @@ img {
 /* For small devices, menu two columns */
 @media screen and (max-width: 800px) {
 
+    .last-modified_wrapper{
+            display: none;
+    }
+
     .languages__content {
         grid-template-columns: repeat(3, auto)
     }
