@@ -167,16 +167,16 @@ resumeButton.addEventListener('click', () => {
 });
 
 // Change profile picture on hover
-document.addEventListener("DOMContentLoaded", function () {
-    const img = document.querySelector(".home__img");
+// document.addEventListener("DOMContentLoaded", function () {
+//     const img = document.querySelector(".home__img");
 
-    img.addEventListener("mouseover", function () {
-        img.src = "assets/img/pic_2.jpg";
-        img.style.filter = "grayscale(0%)"; 
-    });
+//     img.addEventListener("mouseover", function () {
+//         img.src = "assets/img/pic_2.jpg";
+//         img.style.filter = "grayscale(0%)"; 
+//     });
 
-    img.addEventListener("mouseout", function () {
-        img.src = "assets/img/pic_1.jpg";
-        img.style.filter = "grayscale(100%)"; 
-    });
-});
+//     img.addEventListener("mouseout", function () {
+//         img.src = "assets/img/pic_1.jpg";
+//         img.style.filter = "grayscale(100%)"; 
+//     });
+// });
