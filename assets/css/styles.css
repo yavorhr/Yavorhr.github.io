@@ -332,6 +332,9 @@ img {
     letter-spacing: .35rem;
 }
 
+font-size: 22px;
+  font-style: italic;
+
 #skills .section-title {
     margin-bottom: 0;
 }
