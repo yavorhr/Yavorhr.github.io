@@ -736,6 +736,13 @@ font-size: 22px;
     margin-top: var(--mb-2);
 }
 
+.buttons-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .works__item {
     position: relative;
     min-width: 170px;
