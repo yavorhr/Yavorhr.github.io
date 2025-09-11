@@ -740,14 +740,14 @@ font-size: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    margin-top: 20px;
 }
 
 .works__item {
     position: relative;
     min-width: 170px;
     max-width: 370px;
-    height: 270px;
+    height: 300px;
     cursor: pointer;
 }
 
@@ -784,8 +784,8 @@ font-size: 22px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 48px;  
-    height: 48px;
+    width: 40px;  
+    height: 40px;
     font-size: 24px;
     background-color: silver;
     border-radius: .25rem;
@@ -829,8 +829,8 @@ font-size: 22px;
 
 .works__link i,
 .works__link img {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
 }
 
 .works__title {
