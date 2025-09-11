@@ -740,7 +740,7 @@ font-size: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .works__item {
@@ -782,22 +782,55 @@ font-size: 22px;
 
 .works__link {
     display: inline-flex;
-    font-size: var(--h2-font-size);
+    justify-content: center;
+    align-items: center;
+    width: 48px;  
+    height: 48px;
+    font-size: 24px;
     background-color: silver;
-    padding: .25rem;
     border-radius: .25rem;
     margin: 10px;
     color: black;
-
     transition: all 0.3s ease-in-out;
+    position: relative; 
 }
 
 .works__link:hover {
     background-color: white;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     color: #4b4848;
-
     transform: scale(1.2);
+}
+
+.tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+
+.tooltip:hover::after {
+    opacity: 1;
+}
+
+.docker-link:hover .docker-icon {
+    filter: invert(37%) sepia(97%) saturate(377%) hue-rotate(153deg) brightness(93%) contrast(95%);
+}
+
+.works__link i,
+.works__link img {
+    width: 24px;
+    height: 24px;
 }
 
 .works__title {
