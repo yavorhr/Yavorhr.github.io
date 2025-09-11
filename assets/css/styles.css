@@ -256,7 +256,7 @@ body.scale-cv {
     height: 11px;
     margin-top: .22rem
 }
- 
+
 .scale-cv .education__line {
     width: 1px;
     height: 140%;
@@ -333,7 +333,7 @@ img {
 }
 
 font-size: 22px;
-  font-style: italic;
+font-style: italic;
 
 #skills .section-title {
     margin-bottom: 0;
@@ -736,7 +736,7 @@ font-size: 22px;
     margin-top: var(--mb-2);
 }
 
-.buttons-wrapper{
+.buttons-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -767,7 +767,6 @@ font-size: 22px;
 .works__common {
     padding: 0.2rem 0.5rem;
     border-radius: 0.25rem;
-
     color: var(--container-color);
     font-size: var(--normal-font-size);
     z-index: 2;
@@ -777,8 +776,8 @@ font-size: 22px;
     background-color: rgba(255, 0, 0, 0.7);
 }
 
-.works__completed{
-    background-color: rgba(43, 255, 0, 0.7)rgba(34, 165, 8, 0.7);
+.works__completed {
+    background-color: rgba(43, 255, 0, 0.7)
 }
 
 .works__item:hover .works__data {
@@ -791,7 +790,7 @@ font-size: 22px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;  
+    width: 40px;
     height: 40px;
     font-size: 24px;
     background-color: silver;
@@ -799,7 +798,7 @@ font-size: 22px;
     margin: 10px;
     color: black;
     transition: all 0.3s ease-in-out;
-    position: relative; 
+    position: relative;
 }
 
 .works__link:hover {
@@ -835,7 +834,7 @@ font-size: 22px;
 }
 
 .github-link:hover .bx-link {
-     color: #ffd700;
+    color: #ffd700;
 }
 
 
@@ -969,8 +968,8 @@ font-size: 22px;
 /* For small devices, menu two columns */
 @media screen and (max-width: 800px) {
 
-    .last-modified_wrapper{
-            display: none;
+    .last-modified_wrapper {
+        display: none;
     }
 
     .languages__content {
