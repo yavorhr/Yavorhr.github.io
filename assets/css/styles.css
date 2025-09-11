@@ -827,6 +827,11 @@ font-size: 22px;
     filter: invert(37%) sepia(97%) saturate(377%) hue-rotate(153deg) brightness(93%) contrast(95%);
 }
 
+.github-link:hover .bx-link {
+    color: yellow;
+}
+
+
 .works__link i,
 .works__link img {
     width: 28px;
